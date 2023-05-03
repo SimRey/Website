@@ -10975,3 +10975,37 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+.skillbox{
+    box-sizing: border-box;
+    width: 70%;
+    margin: 5px 0;
+}
+
+.skillbox p{
+    color: #6c757d;
+    margin: 0 0 5px;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+.skillbox p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -25px;
+}
+
+.skill{
+    background: #6c757d;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 0.25px solid #0fffb7;
+    border-radius: 2px;
+}
+
+.skill_level{
+    background: #0fffb7;
+    width: 70%;
+    height: 5px;
+}
